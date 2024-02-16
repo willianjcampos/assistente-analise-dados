@@ -49,21 +49,21 @@ Este projeto foi criado para o desenvolvimento do curso de Assistente de Anális
    - Construção de gráficos e relatórios;
 
 10. Pré-Processamento de dados
-   - Tipos de dados;
-   - Qualidade dados;
-   - Impacto do de dados no sistema de IA;
+    - Tipos de dados;
+    - Qualidade dados;
+    - Impacto do de dados no sistema de IA;
 
 11. Multi-Layer Perceptrons;
-   - Características;
-   - Aplicabilidade;
-   - Implementação em Python;
+    - Características;
+    - Aplicabilidade;
+    - Implementação em Python;
 
 12. Convulational Neural Network
-   - Características;
-   - Aplicabilidade;
-   - Implementação em Python;
+    - Características;
+    - Aplicabilidade;
+    - Implementação em Python;
 
 12. Speech Recognition
-   a. Características;
-   b. Aplicabilidade;
-   c. Implementação em Python.
+    - Características;
+    - Aplicabilidade;
+    - Implementação em Python.
