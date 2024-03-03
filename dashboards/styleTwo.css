@@ -1,0 +1,43 @@
+[data-testid="stApp"], h1, h2, h3 {
+    color: #003469;
+}
+
+[data-testid="baseButton-secondary"] {
+    background-color: rgba(0, 128, 55, 1);
+}
+
+[data-testid="baseButton-secondary"]:hover {
+    border: 1px solid #fff;
+}
+
+button[title="View fullscreen"] {
+    visibility: hidden;
+}
+
+[data-testid="stSidebar"] {
+    background-color: rgba(153, 204, 175, 1);
+    color: #FFF;
+}
+
+[data-testid="stSidebarUserContent"] {
+    padding: 3rem 1.5rem;
+}
+
+[data-testid="stAppViewContainer"] > .main {
+    background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: local;
+}
+
+[data-testid="stHeader"]{
+    background: rgba(0,0,0,0);
+}
+
+
+
+
+
+
+

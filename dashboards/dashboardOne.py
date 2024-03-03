@@ -2,12 +2,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-# Para usar estilo CSS (metodo chato...)
-#with open('styleOne.css') as f:
-#    st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
-
-# Layout da página - Para alterar estilo
-#st.markdown(page_bg_img, unsafe_allow_html=True)
 
 # Exibição de dados básica
 df = pd.DataFrame(
