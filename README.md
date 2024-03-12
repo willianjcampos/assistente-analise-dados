@@ -2,7 +2,7 @@
 
 Este projeto foi criado para o desenvolvimento prático do curso de Assistente de Análise de Dados - SENAI 2023/2024, com data de início no dia 18/12/2023 e término para o dia 22/03/2024, de forma Presencial, com carga horária de 175 horas.
 
-> [!ALERT]
+> [!WARNING]
 > O diretório ```estudos``` encontra-se com vários arquivos que foram desenvolvidos em sala para propósitos distintos.
 
 > [!NOTE]
