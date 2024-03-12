@@ -1,0 +1,27 @@
+/*----------SIDEBAR----------*/
+[data-testid="stArrowVegaLiteChart"]{
+    width: 100% !important;
+}
+
+/*----------MENU----------*/
+/* Espaçamento do Menu */
+[data-testid="stSidebarUserContent"] {
+    padding: 3rem 1.5rem;
+}
+
+/*----------PÁGINA----------*/
+/* Espaçamento da página */
+.block-container{
+    padding: 2rem 3rem;
+}
+
+
+[data-testid="stIFrame"]{
+    height: 4.6rem;
+    border-radius: .5rem;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+[data-testid="stIFrame"]:hover{
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+}
