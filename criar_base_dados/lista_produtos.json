@@ -1,0 +1,130 @@
+[
+    {
+        "Produto": "Notebook Dell",
+        "Categoria": "Notebook"
+    },
+    {
+        "Produto": "Notebook Acer",
+        "Categoria": "Notebook"
+    },
+    {
+        "Produto": "Notebook Lenovo",
+        "Categoria": "Notebook"
+    },
+    {
+        "Produto": "Notebook Samsung",
+        "Categoria": "Notebook"
+    },
+    {
+        "Produto": "Notebook Asus",
+        "Categoria": "Notebook"
+    },
+    {
+        "Produto": "Computador Dell",
+        "Categoria": "Computador"
+    },
+    {
+        "Produto": "Computador Lenovo",
+        "Categoria": "Computador"
+    },
+    {
+        "Produto": "Computador HP",
+        "Categoria": "Computador"
+    },
+    {
+        "Produto": "Computador Apple",
+        "Categoria": "Computador"
+    },
+    {
+        "Produto": "Mouse Logitech",
+        "Categoria": "Periférico"
+    },
+    {
+        "Produto": "Mouse C3Teck",
+        "Categoria": "Periférico"
+    },
+    {
+        "Produto": "Mouse Multilaser",
+        "Categoria": "Periférico"
+    },
+    {
+        "Produto": "Mouse Razer",
+        "Categoria": "Periférico"
+    },
+    {
+        "Produto": "Mouse Redragon",
+        "Categoria": "Periférico"
+    },
+    {
+        "Produto": "Teclado Microsoft",
+        "Categoria": "Periférico"
+    },
+    {
+        "Produto": "Teclado Radragon",
+        "Categoria": "Periférico"
+    },
+    {
+        "Produto": "Teclado Logitech",
+        "Categoria": "Periférico"
+    },
+    {
+        "Produto": "Teclado Corsair",
+        "Categoria": "Periférico"
+    },
+    {
+        "Produto": "Monitor LG",
+        "Categoria": "Monitor"
+    },
+    {
+        "Produto": "Monitor Samsung",
+        "Categoria": "Monitor"
+    },
+    {
+        "Produto": "Monitor AOC",
+        "Categoria": "Monitor"
+    },
+    {
+        "Produto": "Monitor Dell",
+        "Categoria": "Monitor"
+    },
+    {
+        "Produto": "Monitor BenQ",
+        "Categoria": "Monitor"
+    },
+    {
+        "Produto": "Monitor Asus ROG",
+        "Categoria": "Monitor"
+    },
+    {
+        "Produto": "HD Externo Seagate",
+        "Categoria": "Armazenamento"
+    },
+    {
+        "Produto": "HD Externo Adata",
+        "Categoria": "Armazenamento"
+    },
+    {
+        "Produto": "HD Externo SanDisk",
+        "Categoria": "Armazenamento"
+    },
+    {
+        "Produto": "HD Externo Western Digital",
+        "Categoria": "Armazenamento"
+    },
+    {
+        "Produto": "Impressora Samsung",
+        "Categoria": "Impressora"
+    },
+    {
+        "Produto": "Impressora HP",
+        "Categoria": "Impressora"
+    },
+    {
+        "Produto": "Impressora Epson",
+        "Categoria": "Impressora"
+    },
+    {
+        "Produto": "Impressora Brother",
+        "Categoria": "Impressora"
+    }
+]
