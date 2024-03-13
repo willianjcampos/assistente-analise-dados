@@ -14,9 +14,6 @@ df = pd.DataFrame(data)
 # Converte o pandas.DataFrame em um dicionário
 lista_produtos = df.set_index('Produto')['Categoria'].to_dict()
 
-# Define as regiões que podem ser efetuadas as vendas
-regioes = ["Goiás", "Minas Gerais", "Mato Grosso"]
-
 # Define as datas de início e fim
 data_inicial = datetime(2010, 1, 1)
 data_final = datetime(2023, 12, 31)
@@ -62,12 +59,12 @@ def data_hora_aleatoria(dt_inicial, dt_final, h_inicial, h_final):
 
 
 # Função para gerar um tipo de transação aleatório
-def tipo_compra_venda():
+def tipo_aleatorio():
     return random.choice(["Compra", "Venda"])
 
 
 # Função para gerar um preço aleatório
-def valor_aleatorio():
+def valor_unitario_aleatorio():
     return round(random.uniform(100, 5000), 2)
 
 
@@ -88,6 +85,11 @@ def tipo_pagamento_aleatorio():
     return random.choice(["Cartão de Crédito", "Boleto", "Transferência Bancária"])
 
 
+# Função para gerar um método de pagamento aleatório
+def regiao_aleatoria():
+    return random.choice(["Goiás", "Minas Gerais", "Mato Grosso"])
+
+
 # Cria um arquivo CSV para escrever os dados
 with open(caminho_base_dados, mode='w', newline='', encoding='utf-8') as file:
     arquivo = csv.writer(file)
@@ -102,16 +104,18 @@ with open(caminho_base_dados, mode='w', newline='', encoding='utf-8') as file:
         produto, categoria_produto = random.choice(
             list(lista_produtos.items()))
         quantidade = random.randint(1, 100)
-        tipo = tipo_compra_venda()
-        valor_unitario = valor_aleatorio()
+        tipo = tipo_aleatorio()
+        valor_unitario = valor_unitario_aleatorio()
         custo = custo_aqusicao(valor_unitario)
         tipo_compra = tipo_compra_aleatoria()
         canal_venda = tipo_pagamento_aleatorio()
-        regiao = random.choice(regioes)
+        regiao = regiao_aleatoria()
 
+        # Cria a estrutura para salvar
         registro = [data, produto, categoria_produto, quantidade, tipo,
                     valor_unitario, custo, tipo_compra, canal_venda, regiao]
 
+        # Exibe a informação que será salva no arquivo
         print("\tRegistro %d: %s." % (i + 1, registro))
 
         # Escreve a linha no arquivo CSV
@@ -129,5 +133,6 @@ df = df.sort_values(['Data'], ignore_index=True)
 
 # Salva o arquivo após tratamento
 df.to_csv(r''+caminho_base_dados, index=False, encoding='utf-8')
+
 
 print("Processo finalizado com sucesso!")
